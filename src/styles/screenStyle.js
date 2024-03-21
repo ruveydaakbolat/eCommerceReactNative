@@ -1,0 +1,13 @@
+import {StyleSheet} from 'react-native';
+import {AppColors} from '../theme/colors';
+import {width} from '../utils/constant';
+
+const screenStyle = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: AppColors.WHITE,
+    paddingHorizontal: 10,
+  },
+});
+
+export {screenStyle};
